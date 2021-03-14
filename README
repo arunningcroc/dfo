@@ -1,0 +1,12 @@
+OFDFT/DFT solver for one-dimensional systems.
+
+You need gfortran (or some other Fortran compiler), LAPACK, BLAS and OpenMP.
+
+Pull the code, and type
+
+make test
+./test
+
+If tests are OK, then the program can be used.
+
+I used this code for my MSC thesis to test simple 1D KE models, and so the code is something of a mess.
